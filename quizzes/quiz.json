@@ -1,0 +1,26 @@
+[
+  {
+    "type": "singleSelect",
+    "question": "¿Cuál es la función principal de MLflow?",
+    "options": [
+      "Entrenar modelos automáticamente",
+      "Visualizar datos en tiempo real",
+      "Registrar parámetros, métricas y artefactos",
+      "Desplegar modelos en contenedores"
+    ],
+    "answer": [2],
+    "explanation": "MLflow permite registrar parámetros, métricas y artefactos para comparar y reproducir experimentos."
+  },
+  {
+    "type": "singleSelect",
+    "question": "¿Qué herramienta permite crear dashboards interactivos?",
+    "options": [
+      "FastAPI",
+      "Streamlit",
+      "PyCaret",
+      "Comet.ml"
+    ],
+    "answer": [1],
+    "explanation": "Streamlit permite crear dashboards interactivos con Python."
+  }
+]
