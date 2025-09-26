@@ -1,0 +1,44 @@
+# Welcome to your prefect.yaml file! You can use this file for storing and managing
+# configuration for deploying your flows. We recommend committing this file to source
+# control along with your flow code.
+
+# Generic metadata about this project
+name: iris-mlops-bot
+prefect-version: 3.4.20
+
+# build section allows you to manage and build docker images
+build: null
+
+# push section allows you to manage if and how this project is uploaded to remote locations
+push: null
+
+# pull section allows you to provide instructions for cloning this project in remote locations
+pull:
+- prefect.deployments.steps.git_clone:
+    repository: https://github.com/Armegas/iris-mlops-bot.git
+    branch: master
+    access_token: '{{ prefect.blocks.secret.deployment-train-models-py-iris-flow-repo-token
+      }}'
+
+# the deployments section allows you to provide configuration for deploying flows
+deployments:
+- name: train_models.py
+  version: null
+  tags: []
+  concurrency_limit: null
+  description: null
+  entrypoint: mlflow_tracking/train_models.py:iris_pipeline
+  parameters: {}
+  work_pool:
+    name: iris-pool
+    work_queue_name: null
+    job_variables: {}
+  schedules:
+  - interval: 3600.0
+    anchor_date: '2025-09-26T08:59:19.814584+00:00'
+    timezone: UTC
+    active: true
+  - interval: 3600.0
+    anchor_date: '2025-09-26T08:59:29.492180+00:00'
+    timezone: UTC
+    active: true
