@@ -1,0 +1,12 @@
+# Ignorar entornos virtuales
+venv/
+
+# Ignorar directorios de caché de Python
+__pycache__/
+
+# Ignorar directorios de ejecución de MLflow (si es el caso)
+mlruns/
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db

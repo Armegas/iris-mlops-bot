@@ -41,7 +41,5 @@ Disponible en `quizzes/`[`quiz.json`](https://quiz.json)
 ## 🐳 Docker
 
 ```bash
-docker build -t iris-bot .
-docker run -p 8501:8501 iris-bot
+docker-compose up --build
 ```
-

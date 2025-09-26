@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/andre/iris-mlops-bot/mlruns/0/models/m-15bc52cd0ce64aa6888907e675d3cc10/artifacts
+creation_timestamp: 1758798527559
+experiment_id: '0'
+last_updated_timestamp: 1758798531843
+model_id: m-15bc52cd0ce64aa6888907e675d3cc10
+model_type: null
+name: model
+source_run_id: 3642e09bb6a34750bb0f79e8d26e6fb6
+status: 2
+status_message: null

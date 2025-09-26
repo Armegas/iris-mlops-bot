@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/andre/iris-mlops-bot/mlruns/0/0bbd864bc9054fc5a5cd0b80eb705ccd/artifacts
+end_time: 1758798058985
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0bbd864bc9054fc5a5cd0b80eb705ccd
+run_name: DecisionTree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758798040780
+status: 3
+tags: []
+user_id: andre

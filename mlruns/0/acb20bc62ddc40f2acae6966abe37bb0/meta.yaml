@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/andre/iris-mlops-bot/mlruns/0/acb20bc62ddc40f2acae6966abe37bb0/artifacts
+end_time: 1758798065365
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: acb20bc62ddc40f2acae6966abe37bb0
+run_name: XGBoost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758798059013
+status: 3
+tags: []
+user_id: andre

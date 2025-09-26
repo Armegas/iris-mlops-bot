@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/andre/iris-mlops-bot/mlruns/0/a123e906a1354390a056e8194c3c948d/artifacts
+end_time: 1758798527303
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a123e906a1354390a056e8194c3c948d
+run_name: LogisticRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758798518298
+status: 3
+tags: []
+user_id: andre
